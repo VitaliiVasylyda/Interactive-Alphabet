@@ -23,9 +23,6 @@
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    self.audioController = [OCAIAAudioController new];
-    [self.audioController preloadSoundEffect:kAudioEffectFiles];
-    [self.audioController playSound:kSoundMainTheme];
     Task *task = [Task loadWordsFromPlist];
     UIView *gameLayer = [[UIView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight)];
     gameLayer.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroundFon"]];

@@ -13,4 +13,5 @@
 
 @property (strong, nonatomic) UITextField *userEnterWord;
 @property (strong, nonatomic) UIButton *letsGame;
+@property (strong, nonatomic) UIButton *ok;
 @end

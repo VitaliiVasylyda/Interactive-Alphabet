@@ -91,6 +91,11 @@
 				3738010B1D1E7141004571C8 /* wrong.m4a */,
 				3738010C1D1E7141004571C8 /* ding.mp3 */,
 				375AE8591D74BA7F00EA151F /* mainTheme.mp3 */,
+				375AE8791D7F5F3100EA151F /* backgroundFon.png */,
+				375AE86B1D7614F200EA151F /* characterFon.png */,
+				375AE8651D760D3100EA151F /* qvestionMark.png */,
+				375AE8751D7F342A00EA151F /* cloud1.png */,
+				371F144F1D0802D000339578 /* blur.png */,
 				371B04751CF410AE005080A0 /* UI */,
 				371B04761CF410D3005080A0 /* Data */,
 				37FB32BB1CE0DB3100323748 /* Assets.xcassets */,
@@ -104,15 +109,10 @@
 			children = (
 				37FB32B21CE0DB3000323748 /* AppDelegate.h */,
 				37FB32B31CE0DB3000323748 /* AppDelegate.m */,
-				375AE8721D776F2000EA151F /* OCAIAStartGameViewController.h */,
-				375AE8731D776F2000EA151F /* OCAIAStartGameViewController.m */,
-				37FB32B51CE0DB3000323748 /* OCAIAViewController.h */,
-				37FB32B61CE0DB3000323748 /* OCAIAViewController.m */,
+				375AE87B1D808D8100EA151F /* ViewControllers */,
 				379A48FC1CE508E2003D6D17 /* Config.h */,
 				37FB32C81CE47D5E00323748 /* Task.h */,
 				37FB32C91CE47D5E00323748 /* Task.m */,
-				375AE86F1D77674200EA151F /* OCAIAUserInputWordsViewController.h */,
-				375AE8701D77674200EA151F /* OCAIAUserInputWordsViewController.m */,
 				37FB32CB1CE491AB00323748 /* GameController.h */,
 				37FB32CC1CE491AB00323748 /* GameController.m */,
 				3762FFF41CE7088300FC2AE8 /* OCAIATargetLetterView.h */,
@@ -132,11 +132,6 @@
 			children = (
 				37FB32B81CE0DB3000323748 /* Main.storyboard */,
 				37FB32BD1CE0DB3100323748 /* LaunchScreen.storyboard */,
-				375AE8791D7F5F3100EA151F /* backgroundFon.png */,
-				375AE86B1D7614F200EA151F /* characterFon.png */,
-				375AE8651D760D3100EA151F /* qvestionMark.png */,
-				375AE8751D7F342A00EA151F /* cloud1.png */,
-				371F144F1D0802D000339578 /* blur.png */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -147,6 +142,19 @@
 				37FB32C61CE0E34E00323748 /* Words.plist */,
 			);
 			name = Data;
+			sourceTree = "<group>";
+		};
+		375AE87B1D808D8100EA151F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				375AE8721D776F2000EA151F /* OCAIAStartGameViewController.h */,
+				375AE8731D776F2000EA151F /* OCAIAStartGameViewController.m */,
+				37FB32B51CE0DB3000323748 /* OCAIAViewController.h */,
+				37FB32B61CE0DB3000323748 /* OCAIAViewController.m */,
+				375AE86F1D77674200EA151F /* OCAIAUserInputWordsViewController.h */,
+				375AE8701D77674200EA151F /* OCAIAUserInputWordsViewController.m */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		37FB32A31CE0DB3000323748 = {

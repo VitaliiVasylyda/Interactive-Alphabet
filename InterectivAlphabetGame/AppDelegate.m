@@ -9,11 +9,13 @@
 #import "AppDelegate.h"
 #import "OCAIAStartGameViewController.h"
 #import "OCAIAViewController.h"
+#import "OCAIAAudioController.h"
+#import "Config.h"
 
 
 @interface AppDelegate ()
 
-//@property (strong, nonatomic) NSMutableArray *userEnterWords;
+@property (strong, nonatomic) OCAIAAudioController *audioController;
 
 @end
 
@@ -24,6 +26,9 @@
     self.userEnterWords = [NSMutableArray new];
     OCAIAStartGameViewController *startController = [OCAIAStartGameViewController new];
     self.window.rootViewController = startController;
+    self.audioController = [OCAIAAudioController new];
+    [self.audioController preloadSoundEffect:kAudioEffectFiles];
+    [self.audioController playSound:kSoundMainTheme];
     return YES;
 }
 

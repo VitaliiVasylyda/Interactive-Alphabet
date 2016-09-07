@@ -12,7 +12,7 @@
 #import "AppDelegate.h"
 
 
-@interface OCAIAUserInputWordsViewController () <UITextFieldDelegate>
+@interface OCAIAUserInputWordsViewController ()
 
 @property (strong, nonatomic) OCAIAViewController *nextVc;
 @property (strong, nonatomic) AppDelegate *appDelegate;
@@ -25,7 +25,6 @@
     self.nextVc = [OCAIAViewController new];
     self.userEnterWord = [UITextField new];
     self.userEnterWord.backgroundColor = [UIColor whiteColor];
-    self.userEnterWord.delegate = self;
     self.userEnterWord.textAlignment = NSTextAlignmentCenter;
     self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"backgroundFon"]];
     [self.view addSubview:self.userEnterWord];
@@ -38,6 +37,14 @@
     self.letsGame.titleLabel.font = [UIFont fontWithName:@"Verdana-Bold" size:14];
     [self.letsGame setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [self.view addSubview:self.letsGame];
+    self.ok = [UIButton buttonWithType:UIButtonTypeSystem];
+    self.ok.frame = CGRectMake(self.view.center.x + 120, self.view.center.y - 90, 100, 100);
+    [self.ok setBackgroundImage:[UIImage imageNamed:@"cloud1"] forState:UIControlStateNormal];
+    [self.ok setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [self.ok setTitle:@"Ok" forState:UIControlStateNormal];
+    self.ok.titleLabel.font = [UIFont fontWithName:@"Verdana-Bold" size:14.0];
+    [self.ok addTarget:self action:@selector(addNewWord:) forControlEvents:UIControlEventTouchDown];
+    [self.view addSubview:self.ok];
     self.appDelegate = (AppDelegate *)[[UIApplication sharedApplication]delegate];
 }
 
@@ -45,10 +52,9 @@
     [self presentViewController:self.nextVc animated:YES completion:nil];
 }
 
-#pragma  mark - UITextFieldDelegate
-
-- (BOOL)textFieldShouldReturn:(UITextField *)textField{
-    [self.appDelegate.userEnterWords addObject:textField.text];
-    return  YES;
+- (void)addNewWord:(id)sender{
+    [self.appDelegate.userEnterWords addObject:self.userEnterWord.text];
+    self.userEnterWord.text = @"";
 }
+
 @end

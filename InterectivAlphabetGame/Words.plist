@@ -5,22 +5,64 @@
 	<key>words</key>
 	<array>
 		<array>
-			<string>goos</string>
+			<string>car</string>
 		</array>
 		<array>
-			<string>chiken</string>
+			<string>tree</string>
+		</array>
+		<array>
+			<string>leaves</string>
+		</array>
+		<array>
+			<string>food</string>
+		</array>
+		<array>
+			<string>juice</string>
+		</array>
+		<array>
+			<string>ananas</string>
+		</array>
+		<array>
+			<string>cherry</string>
+		</array>
+		<array>
+			<string>apple</string>
+		</array>
+		<array>
+			<string>orange</string>
+		</array>
+		<array>
+			<string>cookies</string>
+		</array>
+		<array>
+			<string>water</string>
+		</array>
+		<array>
+			<string>cow</string>
+		</array>
+		<array>
+			<string>bird</string>
+		</array>
+		<array>
+			<string>cloud</string>
+		</array>
+		<array>
+			<string>flower</string>
+		</array>
+		<array>
+			<string>chicken</string>
 		</array>
 		<array>
 			<string>kitten</string>
 		</array>
 		<array>
-			<string>plams</string>
+			<string>plum</string>
 		</array>
 		<array>
 			<string>sunny</string>
 		</array>
 		<array>
-			<string>dogs</string>
+			<string>dog</string>
 		</array>
 	</array>
 </dict>
