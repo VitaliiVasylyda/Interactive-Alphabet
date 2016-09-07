@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		371F14501D0802D100339578 /* blur.png in Resources */ = {isa = PBXBuildFile; fileRef = 371F144F1D0802D000339578 /* blur.png */; };
+		371F14531D0803B200339578 /* OCAIAExplodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 371F14521D0803B200339578 /* OCAIAExplodeView.m */; };
+		373801091D1D9E7A004571C8 /* OCAIAAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373801081D1D9E7A004571C8 /* OCAIAAudioController.m */; };
+		3738010D1D1E7141004571C8 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3738010A1D1E7141004571C8 /* win.mp3 */; };
+		3738010E1D1E7141004571C8 /* wrong.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3738010B1D1E7141004571C8 /* wrong.m4a */; };
+		3738010F1D1E7141004571C8 /* ding.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3738010C1D1E7141004571C8 /* ding.mp3 */; };
+		375AE85A1D74BA7F00EA151F /* mainTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 375AE8591D74BA7F00EA151F /* mainTheme.mp3 */; };
+		375AE8681D760D3100EA151F /* qvestionMark.png in Resources */ = {isa = PBXBuildFile; fileRef = 375AE8651D760D3100EA151F /* qvestionMark.png */; };
+		375AE86C1D7614F200EA151F /* characterFon.png in Resources */ = {isa = PBXBuildFile; fileRef = 375AE86B1D7614F200EA151F /* characterFon.png */; };
+		375AE8711D77674200EA151F /* OCAIAUserInputWordsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375AE8701D77674200EA151F /* OCAIAUserInputWordsViewController.m */; };
+		375AE8741D776F2000EA151F /* OCAIAStartGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375AE8731D776F2000EA151F /* OCAIAStartGameViewController.m */; };
+		375AE8761D7F342B00EA151F /* cloud1.png in Resources */ = {isa = PBXBuildFile; fileRef = 375AE8751D7F342A00EA151F /* cloud1.png */; };
+		375AE87A1D7F5F3100EA151F /* backgroundFon.png in Resources */ = {isa = PBXBuildFile; fileRef = 375AE8791D7F5F3100EA151F /* backgroundFon.png */; };
+		3762FFF61CE7088300FC2AE8 /* OCAIATargetLetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3762FFF51CE7088300FC2AE8 /* OCAIATargetLetterView.m */; };
+		37FB32B11CE0DB3000323748 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB32B01CE0DB3000323748 /* main.m */; };
+		37FB32B41CE0DB3000323748 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB32B31CE0DB3000323748 /* AppDelegate.m */; };
+		37FB32B71CE0DB3000323748 /* OCAIAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB32B61CE0DB3000323748 /* OCAIAViewController.m */; };
+		37FB32BA1CE0DB3000323748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FB32B81CE0DB3000323748 /* Main.storyboard */; };
+		37FB32BC1CE0DB3100323748 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37FB32BB1CE0DB3100323748 /* Assets.xcassets */; };
+		37FB32BF1CE0DB3100323748 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37FB32BD1CE0DB3100323748 /* LaunchScreen.storyboard */; };
+		37FB32C71CE0E34E00323748 /* Words.plist in Resources */ = {isa = PBXBuildFile; fileRef = 37FB32C61CE0E34E00323748 /* Words.plist */; };
+		37FB32CA1CE47D5E00323748 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB32C91CE47D5E00323748 /* Task.m */; };
+		37FB32CD1CE491AB00323748 /* GameController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB32CC1CE491AB00323748 /* GameController.m */; };
+		37FB32D01CE4B1BF00323748 /* OCAIALetterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FB32CF1CE4B1BF00323748 /* OCAIALetterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		371F144F1D0802D000339578 /* blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur.png; sourceTree = "<group>"; };
+		371F14511D0803B200339578 /* OCAIAExplodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAIAExplodeView.h; sourceTree = "<group>"; };
+		371F14521D0803B200339578 /* OCAIAExplodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAIAExplodeView.m; sourceTree = "<group>"; };
+		373801071D1D9E7A004571C8 /* OCAIAAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAIAAudioController.h; sourceTree = "<group>"; };
+		373801081D1D9E7A004571C8 /* OCAIAAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAIAAudioController.m; sourceTree = "<group>"; };
+		3738010A1D1E7141004571C8 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		3738010B1D1E7141004571C8 /* wrong.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = wrong.m4a; sourceTree = "<group>"; };
+		3738010C1D1E7141004571C8 /* ding.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ding.mp3; sourceTree = "<group>"; };
+		375AE8591D74BA7F00EA151F /* mainTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mainTheme.mp3; sourceTree = "<group>"; };
+		375AE8651D760D3100EA151F /* qvestionMark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qvestionMark.png; sourceTree = "<group>"; };
+		375AE86B1D7614F200EA151F /* characterFon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = characterFon.png; sourceTree = "<group>"; };
+		375AE86F1D77674200EA151F /* OCAIAUserInputWordsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAIAUserInputWordsViewController.h; sourceTree = "<group>"; };
+		375AE8701D77674200EA151F /* OCAIAUserInputWordsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAIAUserInputWordsViewController.m; sourceTree = "<group>"; };
+		375AE8721D776F2000EA151F /* OCAIAStartGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAIAStartGameViewController.h; sourceTree = "<group>"; };
+		375AE8731D776F2000EA151F /* OCAIAStartGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAIAStartGameViewController.m; sourceTree = "<group>"; };
+		375AE8751D7F342A00EA151F /* cloud1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cloud1.png; sourceTree = "<group>"; };
+		375AE8791D7F5F3100EA151F /* backgroundFon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundFon.png; sourceTree = "<group>"; };
+		3762FFF41CE7088300FC2AE8 /* OCAIATargetLetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAIATargetLetterView.h; sourceTree = "<group>"; };
+		3762FFF51CE7088300FC2AE8 /* OCAIATargetLetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAIATargetLetterView.m; sourceTree = "<group>"; };
+		379A48FC1CE508E2003D6D17 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		37FB32AC1CE0DB3000323748 /* InterectivAlphabetGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterectivAlphabetGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37FB32B01CE0DB3000323748 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		37FB32B21CE0DB3000323748 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		37FB32B31CE0DB3000323748 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		37FB32B51CE0DB3000323748 /* OCAIAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCAIAViewController.h; sourceTree = "<group>"; };
+		37FB32B61CE0DB3000323748 /* OCAIAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCAIAViewController.m; sourceTree = "<group>"; };
+		37FB32B91CE0DB3000323748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37FB32BB1CE0DB3100323748 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37FB32BE1CE0DB3100323748 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37FB32C01CE0DB3100323748 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37FB32C61CE0E34E00323748 /* Words.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Words.plist; sourceTree = "<group>"; };
+		37FB32C81CE47D5E00323748 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		37FB32C91CE47D5E00323748 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		37FB32CB1CE491AB00323748 /* GameController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameController.h; sourceTree = "<group>"; };
+		37FB32CC1CE491AB00323748 /* GameController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameController.m; sourceTree = "<group>"; };
+		37FB32CE1CE4B1BF00323748 /* OCAIALetterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCAIALetterView.h; sourceTree = "<group>"; };
+		37FB32CF1CE4B1BF00323748 /* OCAIALetterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCAIALetterView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		37FB32A91CE0DB3000323748 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		371B04731CF40F7F005080A0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3738010A1D1E7141004571C8 /* win.mp3 */,
+				3738010B1D1E7141004571C8 /* wrong.m4a */,
+				3738010C1D1E7141004571C8 /* ding.mp3 */,
+				375AE8591D74BA7F00EA151F /* mainTheme.mp3 */,
+				371B04751CF410AE005080A0 /* UI */,
+				371B04761CF410D3005080A0 /* Data */,
+				37FB32BB1CE0DB3100323748 /* Assets.xcassets */,
+				37FB32C01CE0DB3100323748 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		371B04741CF40F90005080A0 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				37FB32B21CE0DB3000323748 /* AppDelegate.h */,
+				37FB32B31CE0DB3000323748 /* AppDelegate.m */,
+				375AE8721D776F2000EA151F /* OCAIAStartGameViewController.h */,
+				375AE8731D776F2000EA151F /* OCAIAStartGameViewController.m */,
+				37FB32B51CE0DB3000323748 /* OCAIAViewController.h */,
+				37FB32B61CE0DB3000323748 /* OCAIAViewController.m */,
+				379A48FC1CE508E2003D6D17 /* Config.h */,
+				37FB32C81CE47D5E00323748 /* Task.h */,
+				37FB32C91CE47D5E00323748 /* Task.m */,
+				375AE86F1D77674200EA151F /* OCAIAUserInputWordsViewController.h */,
+				375AE8701D77674200EA151F /* OCAIAUserInputWordsViewController.m */,
+				37FB32CB1CE491AB00323748 /* GameController.h */,
+				37FB32CC1CE491AB00323748 /* GameController.m */,
+				3762FFF41CE7088300FC2AE8 /* OCAIATargetLetterView.h */,
+				3762FFF51CE7088300FC2AE8 /* OCAIATargetLetterView.m */,
+				371F14511D0803B200339578 /* OCAIAExplodeView.h */,
+				371F14521D0803B200339578 /* OCAIAExplodeView.m */,
+				373801071D1D9E7A004571C8 /* OCAIAAudioController.h */,
+				373801081D1D9E7A004571C8 /* OCAIAAudioController.m */,
+				37FB32CE1CE4B1BF00323748 /* OCAIALetterView.h */,
+				37FB32CF1CE4B1BF00323748 /* OCAIALetterView.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		371B04751CF410AE005080A0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				37FB32B81CE0DB3000323748 /* Main.storyboard */,
+				37FB32BD1CE0DB3100323748 /* LaunchScreen.storyboard */,
+				375AE8791D7F5F3100EA151F /* backgroundFon.png */,
+				375AE86B1D7614F200EA151F /* characterFon.png */,
+				375AE8651D760D3100EA151F /* qvestionMark.png */,
+				375AE8751D7F342A00EA151F /* cloud1.png */,
+				371F144F1D0802D000339578 /* blur.png */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		371B04761CF410D3005080A0 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				37FB32C61CE0E34E00323748 /* Words.plist */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		37FB32A31CE0DB3000323748 = {
+			isa = PBXGroup;
+			children = (
+				37FB32AE1CE0DB3000323748 /* InterectivAlphabetGame */,
+				37FB32AD1CE0DB3000323748 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		37FB32AD1CE0DB3000323748 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				37FB32AC1CE0DB3000323748 /* InterectivAlphabetGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		37FB32AE1CE0DB3000323748 /* InterectivAlphabetGame */ = {
+			isa = PBXGroup;
+			children = (
+				371B04741CF40F90005080A0 /* Sources */,
+				371B04731CF40F7F005080A0 /* Resources */,
+				37FB32AF1CE0DB3000323748 /* Supporting Files */,
+			);
+			path = InterectivAlphabetGame;
+			sourceTree = "<group>";
+		};
+		37FB32AF1CE0DB3000323748 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				37FB32B01CE0DB3000323748 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		37FB32AB1CE0DB3000323748 /* InterectivAlphabetGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 37FB32C31CE0DB3100323748 /* Build configuration list for PBXNativeTarget "InterectivAlphabetGame" */;
+			buildPhases = (
+				37FB32A81CE0DB3000323748 /* Sources */,
+				37FB32A91CE0DB3000323748 /* Frameworks */,
+				37FB32AA1CE0DB3000323748 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InterectivAlphabetGame;
+			productName = InterectivAlphabetGame;
+			productReference = 37FB32AC1CE0DB3000323748 /* InterectivAlphabetGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		37FB32A41CE0DB3000323748 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = OCAIA;
+				TargetAttributes = {
+					37FB32AB1CE0DB3000323748 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 37FB32A71CE0DB3000323748 /* Build configuration list for PBXProject "InterectivAlphabetGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 37FB32A31CE0DB3000323748;
+			productRefGroup = 37FB32AD1CE0DB3000323748 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				37FB32AB1CE0DB3000323748 /* InterectivAlphabetGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		37FB32AA1CE0DB3000323748 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375AE8761D7F342B00EA151F /* cloud1.png in Resources */,
+				3738010D1D1E7141004571C8 /* win.mp3 in Resources */,
+				37FB32C71CE0E34E00323748 /* Words.plist in Resources */,
+				375AE87A1D7F5F3100EA151F /* backgroundFon.png in Resources */,
+				375AE86C1D7614F200EA151F /* characterFon.png in Resources */,
+				37FB32BF1CE0DB3100323748 /* LaunchScreen.storyboard in Resources */,
+				371F14501D0802D100339578 /* blur.png in Resources */,
+				375AE8681D760D3100EA151F /* qvestionMark.png in Resources */,
+				37FB32BC1CE0DB3100323748 /* Assets.xcassets in Resources */,
+				3738010F1D1E7141004571C8 /* ding.mp3 in Resources */,
+				375AE85A1D74BA7F00EA151F /* mainTheme.mp3 in Resources */,
+				3738010E1D1E7141004571C8 /* wrong.m4a in Resources */,
+				37FB32BA1CE0DB3000323748 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37FB32A81CE0DB3000323748 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				375AE8711D77674200EA151F /* OCAIAUserInputWordsViewController.m in Sources */,
+				37FB32B71CE0DB3000323748 /* OCAIAViewController.m in Sources */,
+				37FB32CA1CE47D5E00323748 /* Task.m in Sources */,
+				37FB32B41CE0DB3000323748 /* AppDelegate.m in Sources */,
+				373801091D1D9E7A004571C8 /* OCAIAAudioController.m in Sources */,
+				3762FFF61CE7088300FC2AE8 /* OCAIATargetLetterView.m in Sources */,
+				37FB32B11CE0DB3000323748 /* main.m in Sources */,
+				375AE8741D776F2000EA151F /* OCAIAStartGameViewController.m in Sources */,
+				37FB32D01CE4B1BF00323748 /* OCAIALetterView.m in Sources */,
+				371F14531D0803B200339578 /* OCAIAExplodeView.m in Sources */,
+				37FB32CD1CE491AB00323748 /* GameController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		37FB32B81CE0DB3000323748 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FB32B91CE0DB3000323748 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		37FB32BD1CE0DB3100323748 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37FB32BE1CE0DB3100323748 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		37FB32C11CE0DB3100323748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		37FB32C21CE0DB3100323748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37FB32C41CE0DB3100323748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InterectivAlphabetGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obukhiv-code-academy.InterectivAlphabetGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		37FB32C51CE0DB3100323748 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InterectivAlphabetGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Obukhiv-code-academy.InterectivAlphabetGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		37FB32A71CE0DB3000323748 /* Build configuration list for PBXProject "InterectivAlphabetGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FB32C11CE0DB3100323748 /* Debug */,
+				37FB32C21CE0DB3100323748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		37FB32C31CE0DB3100323748 /* Build configuration list for PBXNativeTarget "InterectivAlphabetGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37FB32C41CE0DB3100323748 /* Debug */,
+				37FB32C51CE0DB3100323748 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 37FB32A41CE0DB3000323748 /* Project object */;
+}
